@@ -1,0 +1,11 @@
+= Minecraft Modding Station
+
+This repository will be an attempt to create documenation and manage resources for a Minecraft Modding Station at http://hackthefuture.org[Hack the Future] events.
+
+Stay tuned.
+
+== AsciiDoc Format
+
+This README is in the http://asciidoctor.org/docs/asciidoc-syntax-quick-reference/[AsciiDoc Syntax].  There is built-in support from GitHub, the https://chrome.google.com/webstore/detail/asciidoctorjs-live-previe/iaalpfgpbocpdfblpnhhgllgbdbchmia?hl=en[Asciidoctor.js Live Preview] for Chrome, a https://github.com/asciidoctor/asciidoctor-firefox-addon[Firefox Extension] and other tools available.
+
+One advantage to the AsciiDoc format is that it can be used to produce complete online and printed documentation in book-like format. I'd like to use it to produce printed or online handouts we can give to Mentors and possibly some kids at the events.
