@@ -1,11 +1,31 @@
 = Minecraft Modding Station
 
-This repository will be an attempt to create documenation and manage resources for a Minecraft Modding Station at http://hackthefuture.org[Hack the Future] events.
+This repository will be an attempt to create documentation and manage resources for a Minecraft Modding Station at http://hackthefuture.org[Hack the Future] events.
 
 Stay tuned.
+
+== Early Draft
+
+For http://hackthefuture.org/next/[Hack the Future 10], this README will probably be the only documentation in this repo.  However, I'm considering using http://www.gradle.org/[Gradle] and the https://github.com/asciidoctor/asciidoctor-gradle-plugin[AsciiDoctor Gradle Plugin] for later revisions. Note that the Minecraft Forge project has https://github.com/MinecraftForge/ForgeGradle[adopted Gradle] as it's build tool.
+
+== Prerequisites
+
+The following are recommended perquisites for the Minecraft Modding station. Participants are not required to have them pre-installed; mentors can help install them at the event.  However, if they are pre-installed, participants can get started even faster.
+
+. http://www.oracle.com/technetwork/java/javase/downloads/index.html[Java JDK]
+. A Java IDE
+.. Typically this has been http://www.minecraftforge.net/wiki/Eclipse[eclipse].
+.. I like IntelliJ, but for consistency let's stick with eclipse for now.
+
+We will be using Minecraft version 1.6.4 because Forge support for Minecraft 1.7.x is not ready yet.
+
+== Links
+
+HtF mentor Arun Gupta (who is unable to attend HtF 10) has written a blog post called http://blog.arungupta.me/devoxx4kids/minecraft-modding/minecraft-modding-with-forge/[Minecraft Modding with Forge]
 
 == AsciiDoc Format
 
 This README is in the http://asciidoctor.org/docs/asciidoc-syntax-quick-reference/[AsciiDoc Syntax].  There is built-in support from GitHub, the https://chrome.google.com/webstore/detail/asciidoctorjs-live-previe/iaalpfgpbocpdfblpnhhgllgbdbchmia?hl=en[Asciidoctor.js Live Preview] for Chrome, a https://github.com/asciidoctor/asciidoctor-firefox-addon[Firefox Extension] and other tools available.
 
 One advantage to the AsciiDoc format is that it can be used to produce complete online and printed documentation in book-like format. I'd like to use it to produce printed or online handouts we can give to Mentors and possibly some kids at the events.
+
