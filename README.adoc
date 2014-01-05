@@ -21,7 +21,7 @@ We will be using Minecraft version 1.6.4 because Forge support for Minecraft 1.7
 
 == Links
 
-HtF mentor Arun Gupta (who is unable to attend HtF 10) has written a blog post called http://blog.arungupta.me/devoxx4kids/minecraft-modding/minecraft-modding-with-forge/[Minecraft Modding with Forge]
+HtF mentor Arun Gupta (who is unable to attend HtF 10) has written a README called https://github.com/devoxx4kids/materials/tree/master/workshops/minecraft[Minecraft Modding using Forge] for his devoxx4kids workshop.
 
 == AsciiDoc Format
 
