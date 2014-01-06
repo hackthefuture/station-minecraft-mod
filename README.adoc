@@ -12,7 +12,7 @@ For http://hackthefuture.org/next/[Hack the Future 10], this README will probabl
 
 The following are recommended perquisites for the Minecraft Modding station. Participants are not required to have them pre-installed; mentors can help install them at the event.  However, if they are pre-installed, participants can get started even faster.
 
-. http://www.oracle.com/technetwork/java/javase/downloads/index.html[Java JDK]
+. http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html[Java JDK 7]
 . A Java IDE
 .. Typically this has been http://www.minecraftforge.net/wiki/Eclipse[eclipse].
 .. I like IntelliJ, but for consistency let's stick with eclipse for now.
