@@ -7,10 +7,10 @@ http://hackthefuture.org[Hack the Future] events.
 == System Requirements
 
 Ideally a laptop to use with the Forge modding environment
-should have at
-least
-. a Core i7 CPU
-. 8 GB of RAM
+should have at least
+
+* a Core i7 CPU
+* 8 GB of RAM
 
 Compiling Java for such a large project can be CPU-intensive,
 so a slower computer may result in much waiting throughout
@@ -31,8 +31,8 @@ pre-installed; mentors can help install them at the event.
 However, if they are pre-installed, participants can get
 started even faster.
 
-. http://www.oracle.com/technetwork/java/javase/downloads/index.html[Java JDK 8]
-. https://www.jetbrains.com/idea/#chooseYourEdition[IntelliJ IDEA Community Edition]
+* http://www.oracle.com/technetwork/java/javase/downloads/index.html[Java JDK 8]
+* https://www.jetbrains.com/idea/#chooseYourEdition[IntelliJ IDEA Community Edition]
 
 == Getting Started
 
@@ -40,7 +40,7 @@ Most of the lesson materials are currently stored on a Google
 Drive folder. You can find an unpacked ForgeGradle project,
 as well as a README with screenshots of various hack ideas.
 
-. https://drive.google.com/drive/u/0/folders/0B3nL9cUsSr8-UmFYa19FVjFHQTA[Minecraft mods Gdrive folder]
+* https://drive.google.com/drive/u/0/folders/0B3nL9cUsSr8-UmFYa19FVjFHQTA[Minecraft mods Gdrive folder]
 
 == Links
 
