@@ -39,4 +39,4 @@ HtF mentor Arun Gupta has written a README called https://github.com/devoxx4kids
 
 == AsciiDoc Format
 
-This README is in the http://asciidoctor.org/docs/asciidoc-syntax-quick-reference/[AsciiDoc Syntax].  There is built-in support from GitHub, the https://chrome.google.com/webstore/detail/asciidoctorjs-live-previe/iaalpfgpbocpdfblpnhhgllgbdbchmia?hl=en[Asciidoctor.js Live Preview] for Chrome, a https://github.com/asciidoctor/asciidoctor-firefox-addon[Firefox Extension] and other tools available.
+This README is in the http://asciidoctor.org/docs/asciidoc-syntax-quick-reference/[AsciiDoc Syntax].
