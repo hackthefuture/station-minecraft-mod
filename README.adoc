@@ -14,7 +14,7 @@ should have at least
 
 Compiling Java for such a large project can be CPU-intensive,
 so a slower computer may result in much waiting throughout
-each debug cycle. Furthermore, Forge has heavy RAM
+each debug cycle. Furthermore, Forge has heavy memory
 requirements, and a smaller physical RAM set may result
 in less memory allocated to the JVM and obscure errors.
 
@@ -26,8 +26,7 @@ captain.
 == Prerequisites
 
 The following are recommended prerequisites for the Minecraft
-Mods station. Participants are not required to have them
-pre-installed; mentors can help install them at the event.
+Mods station. Mentors can help install them at the event.
 However, if they are pre-installed, participants can get
 started even faster.
 
@@ -42,10 +41,13 @@ as well as a README with screenshots of various hack ideas.
 
 * https://drive.google.com/drive/u/0/folders/0B3nL9cUsSr8-UmFYa19FVjFHQTA[Minecraft mods Gdrive folder]
 
+Over time we hope to move these lessons to this page in
+AsciiDoc format, avoiding the confusion of two READMEs.
+
 == Links
 
 HtF mentor Arun Gupta has written a README called
-https://github.com/devoxx4kids/materials/tree/master/workshops/minecraft[Minecraft Modding using Forge]
+https://github.com/devoxx4kids/materials/blob/master/workshops/minecraft/readme-forge.asciidoc[Minecraft Modding using Forge]
 for his devoxx4kids workshop.
 
 == AsciiDoc Format
