@@ -46,9 +46,17 @@ AsciiDoc format, avoiding the confusion of two READMEs.
 
 == Links
 
-HtF mentor Arun Gupta has written a README called
+Arun Gupta has written a README called
 https://github.com/devoxx4kids/materials/blob/master/workshops/minecraft/readme-forge.asciidoc[Minecraft Modding using Forge]
 for his devoxx4kids workshop.
+
+Bob Freitas has written an
+http://www.lopakalogic.com/articles/minecraft-articles/minecraft-mods-forge/[advanced tutorial for creating tools and weapons out of a new material, Red Diamond].
+
+These tutorials have been used at past HtF events and may reference
+Eclipse (another IDE) or older versions of Forge. With the help
+of your mentors, however, these lessons can be readily adapted
+to our modern environment.
 
 == AsciiDoc Format
 
