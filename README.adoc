@@ -1,16 +1,10 @@
-= Minecraft Modding Station
+= Minecraft Mods Station
 
-This repository will be an attempt to create documentation and manage resources for a Minecraft Modding Station at http://hackthefuture.org[Hack the Future] events.
-
-Stay tuned.
-
-== Early Draft
-
-For http://hackthefuture.org/next/[Hack the Future 10], this README will probably be the only documentation in this repo.  However, I'm considering using http://www.gradle.org/[Gradle] and the https://github.com/asciidoctor/asciidoctor-gradle-plugin[AsciiDoctor Gradle Plugin] for later revisions. Note that the Minecraft Forge project has https://github.com/MinecraftForge/ForgeGradle[adopted Gradle] as it's build tool.
+This repository is an attempt to create documentation and manage resources for a Minecraft Mods station at http://hackthefuture.org[Hack the Future] events.
 
 == Prerequisites
 
-The following are recommended perquisites for the Minecraft Modding station. Participants are not required to have them pre-installed; mentors can help install them at the event.  However, if they are pre-installed, participants can get started even faster.
+The following are recommended prerequisites for the Minecraft Mods station. Participants are not required to have them pre-installed; mentors can help install them at the event.  However, if they are pre-installed, participants can get started even faster.
 
 . http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html[Java JDK 7]
 . A Java IDE
@@ -21,11 +15,8 @@ We will be using Minecraft version 1.6.4 because Forge support for Minecraft 1.7
 
 == Links
 
-HtF mentor Arun Gupta (who is unable to attend HtF 10) has written a README called https://github.com/devoxx4kids/materials/tree/master/workshops/minecraft[Minecraft Modding using Forge] for his devoxx4kids workshop.
+HtF mentor Arun Gupta has written a README called https://github.com/devoxx4kids/materials/tree/master/workshops/minecraft[Minecraft Modding using Forge] for his devoxx4kids workshop.
 
 == AsciiDoc Format
 
 This README is in the http://asciidoctor.org/docs/asciidoc-syntax-quick-reference/[AsciiDoc Syntax].  There is built-in support from GitHub, the https://chrome.google.com/webstore/detail/asciidoctorjs-live-previe/iaalpfgpbocpdfblpnhhgllgbdbchmia?hl=en[Asciidoctor.js Live Preview] for Chrome, a https://github.com/asciidoctor/asciidoctor-firefox-addon[Firefox Extension] and other tools available.
-
-One advantage to the AsciiDoc format is that it can be used to produce complete online and printed documentation in book-like format. I'd like to use it to produce printed or online handouts we can give to Mentors and possibly some kids at the events.
-
