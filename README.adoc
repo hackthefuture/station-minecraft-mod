@@ -2,16 +2,36 @@
 
 This repository is an attempt to create documentation and manage resources for a Minecraft Mods station at http://hackthefuture.org[Hack the Future] events.
 
+== System Requirements
+
+Ideally a laptop to use with the Forge modding environment should have at
+least
+. a Core i7 CPU
+. 8 GB of RAM
+
+Compiling Java for such a large project can be CPU-intensive, so a slower
+computer may result in much waiting throughout each debug cycle. Furthermore,
+Forge has heavy RAM requirements, and a smaller physical RAM set may result
+in less memory allocated to the JVM and obscure errors.
+
+These problems are not unsurmountable, but if you find yourself with an
+underpowered laptop at the Minecraft mods station, consider requesting
+a loaner laptop from the station captain.
+
 == Prerequisites
 
 The following are recommended prerequisites for the Minecraft Mods station. Participants are not required to have them pre-installed; mentors can help install them at the event.  However, if they are pre-installed, participants can get started even faster.
 
-. http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html[Java JDK 7]
-. A Java IDE
-.. Typically this has been http://www.minecraftforge.net/wiki/Eclipse[eclipse].
-.. I like IntelliJ, but for consistency let's stick with eclipse for now.
+. http://www.oracle.com/technetwork/java/javase/downloads/index.html[Java JDK 8]
+. https://www.jetbrains.com/idea/#chooseYourEdition[IntelliJ IDEA Community Edition]
 
-We will be using Minecraft version 1.6.4 because Forge support for Minecraft 1.7.x is not ready yet.
+== Getting Started
+
+Most of the lesson materials are currently stored on a Google Drive folder.
+You can find an unpacked ForgeGradle project, as well as a README with
+screenshots of various hack ideas.
+
+. https://drive.google.com/drive/u/0/folders/0B3nL9cUsSr8-UmFYa19FVjFHQTA[Minecraft mods Gdrive folder]
 
 == Links
 
