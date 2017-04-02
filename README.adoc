@@ -31,7 +31,7 @@ However, if they are pre-installed, participants can get
 started even faster.
 
 * http://www.oracle.com/technetwork/java/javase/downloads/index.html[Java JDK 8]
-* https://www.jetbrains.com/idea/#chooseYourEdition[IntelliJ IDEA Community Edition]
+* https://www.jetbrains.com/idea/download/[IntelliJ IDEA Community Edition]
 * https://files.minecraftforge.net/[Forge Mdk]
 
 == Getting Started
