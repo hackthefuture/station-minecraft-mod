@@ -32,17 +32,44 @@ started even faster.
 
 * http://www.oracle.com/technetwork/java/javase/downloads/index.html[Java JDK 8]
 * https://www.jetbrains.com/idea/#chooseYourEdition[IntelliJ IDEA Community Edition]
+* https://files.minecraftforge.net/[Forge Mdk]
 
 == Getting Started
 
 Most of the lesson materials are currently stored on a Google
-Drive folder. You can find an unpacked ForgeGradle project,
-as well as a README with screenshots of various hack ideas.
+Drive folder. You can find recent versions of the above software,
+as well as a `README.pdf` with screenshots of various hack ideas.
 
 * https://drive.google.com/drive/u/0/folders/0B3nL9cUsSr8-UmFYa19FVjFHQTA[Minecraft mods Gdrive folder]
 
-Over time we hope to move these lessons to this page in
-AsciiDoc format, avoiding the confusion of two READMEs.
+Once you have a recent version of the JDK installed and the
+Forge Mdk unzipped, run ForgeGradle via:
+
+ gradlew setupDecompWorkspace idea
+
+This download-and-decompile step can take a while depending on
+your internet connection and computer's horsepower. Once it's done,
+make the bulk of the Minecraft source code available via:
+
+ mv build/tmp/recompileMc/sources/net src/main/java/
+
+(If on Windows, use the `move` command and backslashes for the
+path separators, i.e. `move build\tmp\recompileMc\sources\net src\main\java\`)
+
+From here you can launch IntelliJ IDEA, open up the project by
+selecting your forge folder, and select *Build* ->
+*Build Project*. The initial build ought to take a few minutes.
+
+If you've gotten this far, you've completed the bulk of the
+"hurry up and wait" procedure. Congratulations! From here, the
+ensuing steps may involve some troubleshooting but you'll no
+longer need wait on compiling or decompiling an entire Minecraft
+project.
+
+At this point you can begin hacking, in the sense of modifying
+Minecraft code and testing the resultant changes. For inspiration
+check out examples and screenshots in `README.pdf` from the
+Gdrive folder.
 
 == Links
 
