@@ -30,7 +30,7 @@ Mods station. Mentors can help install them at the event.
 However, if they are pre-installed, participants can get
 started even faster.
 
-* http://www.oracle.com/technetwork/java/javase/downloads/index.html[Java JDK 8]
+* http://www.oracle.com/technetwork/java/javase/downloads/index.html[Java JDK 8] (JDK 9 is incompatible with ForgeGradle. Make sure you install JDK 8! Windows users: use the 64-bit JDK!)
 * https://www.jetbrains.com/idea/download/[IntelliJ IDEA Community Edition]
 * https://files.minecraftforge.net/[Forge Mdk]
 
@@ -46,6 +46,16 @@ Once you have a recent version of the JDK installed and the
 Forge Mdk unzipped, run ForgeGradle via:
 
  gradlew setupDecompWorkspace idea
+
+If you hit an error about incompatibility with Java 9, you may
+have to tell it explicitly to use your Java 8 installation. On Mac,
+set this environment variable before rerunning `gradlew`:
+
+ export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_1??.jdk/Contents/Home
+
+or on Windows:
+
+ set JAVA_HOME="C:\Program Files\Java\jdk1.8.0_1??"
 
 This download-and-decompile step can take a while depending on
 your internet connection and computer's horsepower. Once it's done,
