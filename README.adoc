@@ -63,8 +63,10 @@ make the bulk of the Minecraft source code available via:
 
  mv build/tmp/recompileMc/sources/net src/main/java/
 
-(If on Windows, use the `move` command and backslashes for the
-path separators, i.e. `move build\tmp\recompileMc\sources\net src\main\java\`)
+If on Windows, use the `move` command and backslashes for the
+path separators, i.e.
+
+ move build\tmp\recompileMc\sources\net src\main\java\
 
 From here you can launch IntelliJ IDEA, open up the project by
 selecting your forge folder, and select *Build* ->
