@@ -40,7 +40,7 @@ Most of the lesson materials are currently stored on a Google
 Drive folder. You can find recent versions of the above software,
 as well as a `README.pdf` with screenshots of various hack ideas.
 
-* https://drive.google.com/drive/u/0/folders/0B3nL9cUsSr8-UmFYa19FVjFHQTA[Minecraft mods Gdrive folder]
+* https://drive.google.com/drive/u/0/folders/0B3nL9cUsSr8-UmFYa19FVjFHQTA[Minecraft mods Gdrive folder] (`README.pdf` is here!)
 
 Once you have a recent version of the JDK installed and the
 Forge Mdk unzipped, run ForgeGradle via:
@@ -79,9 +79,9 @@ longer need wait on compiling or decompiling an entire Minecraft
 project.
 
 At this point you can begin hacking, in the sense of modifying
-Minecraft code and testing the resultant changes. For inspiration
-check out examples and screenshots in `README.pdf` from the
-Gdrive folder.
+Minecraft code and testing the resultant changes.
+If you're not sure what code to edit first, again go check out
+some pictures and examples in *`README.pdf`* linked above.
 
 == Links
 
