@@ -4,6 +4,14 @@ This repository is an attempt to create documentation and
 manage resources for a Minecraft Mods station at
 http://hackthefuture.org[Hack the Future] events.
 
+This station had focused on modding Minecraft: Java Edition.
+Starting with HtF 21 we've favored hacking Minecraft: Pi
+Edition or its PC implementation (RaspberryJuice). This
+allows use of Python and provides a much speedier setup.
+Read more about it on the
+https://github.com/hackthefuture/station-raspberry-pi[**station-raspberry-pi**]
+repo.
+
 == System Requirements
 
 Ideally a laptop to use with the Forge modding environment
