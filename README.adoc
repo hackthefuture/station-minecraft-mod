@@ -14,7 +14,7 @@ https://github.com/hackthefuture/station-raspberry-pi[**station-raspberry-pi**]
 repo.
 
 At the same time we still teach the Forge-based station
-as it gives kids the freedom to modify mobs, their textures,
+as it gives kids the freedom to modify mobs, textures,
 and any other aspects of the game.
 
 == System Requirements
@@ -113,8 +113,59 @@ project.
 
 At this point you can begin hacking, in the sense of modifying
 Minecraft code and testing the resultant changes.
-If you're not sure what code to edit first, again go check out
-some pictures and examples in *`README.pdf`* linked above.
+If you're not sure what code to edit first, start with the
+exercises below, or find even more examples in
+*`README.pdf`* linked above.
+
+== Exercises
+
+We're in the process of migrating the examples from README.pdf to
+markdown here on GitHub.
+
+=== Creeper explosion radius
+
+Find the **EntityCreeper** class under **net.minecraft.entity.monster**. Find the line where it specifies the explosion
+radius. By default it will be three so try changing it to 30.
+
+```java
+    private int explosionRadius = 30;
+```
+
+then hit the Play button to start up Minecraft again, switch into survival mode, and trigger a creeper to make it explode.
+
+![](https://user-images.githubusercontent.com/1616866/54154671-ae35e580-43ff-11e9-993a-e8238b552592.png)
+
+=== Maximum knockback
+
+Last time we made a change we had to restart the entire Minecraft engine. This time we'll make
+use of the debugger with hot swapping. First close your existing Minecraft window and open
+a new one using the Debug button (near the Play button, but looks like a bug). You can then open
+up your world and walk around just as before.
+
+The default maximum "knockback" enchantment allowed on an item is 2. Edit **EnchantmentKnockback** under
+**net.minecraft.enchantment** and set this value to 100.
+
+```java
+    public int getMaxLevel() { return 100; }
+```
+
+This time, go to the Run -> Reload Changed Classes and you won't have to restart Minecraft!
+
+Once this compiles, equip a diamond sword and run the commmand:
+```
+    /enchant Player<tab> 19 10
+```
+
+Note: The number 19 is the value for the knockback enchantment. Try out your sword to see any
+difference in the knockback behavior.
+
+![](https://user-images.githubusercontent.com/1616866/54154696-c279e280-43ff-11e9-8666-a6ed99f08e2e.png)
+
+![](https://user-images.githubusercontent.com/1616866/54154700-c60d6980-43ff-11e9-80dd-07dd20432045.png)
+
+===Chat items
+
+This and other exercises are still in the original `*README.pdf*`. Open that up for more.
 
 == Links
 
