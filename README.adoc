@@ -133,7 +133,7 @@ radius. By default it will be three so try changing it to 30.
 
 then hit the Play button to start up Minecraft again, switch into survival mode, and trigger a creeper to make it explode.
 
-![](https://user-images.githubusercontent.com/1616866/54154671-ae35e580-43ff-11e9-993a-e8238b552592.png)
+image::https://user-images.githubusercontent.com/1616866/54154671-ae35e580-43ff-11e9-993a-e8238b552592.png[]
 
 === Maximum knockback
 
@@ -159,11 +159,11 @@ Once this compiles, equip a diamond sword and run the commmand:
 Note: The number 19 is the value for the knockback enchantment. Try out your sword to see any
 difference in the knockback behavior.
 
-![](https://user-images.githubusercontent.com/1616866/54154696-c279e280-43ff-11e9-8666-a6ed99f08e2e.png)
+image::https://user-images.githubusercontent.com/1616866/54154696-c279e280-43ff-11e9-8666-a6ed99f08e2e.png[]
 
-![](https://user-images.githubusercontent.com/1616866/54154700-c60d6980-43ff-11e9-80dd-07dd20432045.png)
+image::https://user-images.githubusercontent.com/1616866/54154700-c60d6980-43ff-11e9-80dd-07dd20432045.png[]
 
-===Chat items
+=== Chat items
 
 This and other exercises are still in the original `*README.pdf*`. Open that up for more.
 
