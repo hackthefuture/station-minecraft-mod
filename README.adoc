@@ -5,12 +5,17 @@ manage resources for a Minecraft Mods station at
 http://hackthefuture.org[Hack the Future] events.
 
 This station had focused on modding Minecraft: Java Edition.
-Starting with HtF 21 we've favored hacking Minecraft: Pi
+Starting with HtF 21 we've co-taught hacking Minecraft: Pi
 Edition or its PC implementation (RaspberryJuice). This
-allows use of Python and provides a much speedier setup.
+allows use of Python and provides a much speedier setup,
+and access to Minecraft 1.13 and above!
 Read more about it on the
 https://github.com/hackthefuture/station-raspberry-pi[**station-raspberry-pi**]
 repo.
+
+At the same time we still teach the Forge-based station
+as it gives kids the freedom to modify mobs, their textures,
+and any other aspects of the game.
 
 == System Requirements
 
@@ -38,7 +43,7 @@ Mods station. Mentors can help install them at the event.
 However, if they are pre-installed, participants can get
 started even faster.
 
-* http://www.oracle.com/technetwork/java/javase/downloads/index.html[Java JDK 8] (JDK 9 is incompatible with ForgeGradle. Make sure you install JDK 8! Windows users: use the 64-bit JDK!)
+* http://www.oracle.com/technetwork/java/javase/downloads/index.html[Java JDK 8] (JDK 9, 10, and 11 are incompatible with ForgeGradle. Make sure you install JDK 8! Windows users: use the 64-bit JDK!)
 * https://www.jetbrains.com/idea/download/[IntelliJ IDEA Community Edition]
 * https://files.minecraftforge.net/[Forge Mdk]
 
@@ -55,19 +60,25 @@ Forge Mdk unzipped, run ForgeGradle via:
 
  gradlew setupDecompWorkspace idea
 
-If you hit an error about incompatibility with Java 9, you may
+If you hit an error about incompatibility with Java 9 or above, you may
 have to tell it explicitly to use your Java 8 installation. On Mac,
 set this environment variable before rerunning `gradlew`:
 
- export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_1??.jdk/Contents/Home
+ export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_???.jdk/Contents/Home
 
 or on Windows:
 
- set JAVA_HOME="C:\Program Files\Java\jdk1.8.0_1??"
+ set JAVA_HOME="C:\Program Files\Java\jdk1.8.0_???"
+
+If Java 11 was already installed, it often helps to just remove it. For example on macOS:
+
+  cd /Library/Java/JavaVirtualMachines
+  sudo rm -rf jdk1.11.*
 
 This download-and-decompile step can take a while depending on
-your internet connection and computer's horsepower. Once it's done,
-make the bulk of the Minecraft source code available via:
+your internet connection and computer's horsepower.
+
+Once it's done, make the bulk of the Minecraft source code available via:
 
  mv build/tmp/recompileMc/sources/net src/main/java/
 
@@ -80,11 +91,25 @@ From here you can launch IntelliJ IDEA, open up the project by
 selecting your forge folder, and select *Build* ->
 *Build Project*. The initial build ought to take a few minutes.
 
+== Troubleshooting
+
+If it fails after some error about the missing SDK, you probably
+just need to select the SDK via the right drop-down in settings. See *`README.pdf`*!
+
+Once in a while we encounter more obscure errors about missing
+various Java libaries. Not every problem can be anticipated, so
+if one laptop cannot seem to run Forge, this could be time for
+a kid to try on RaspberryJuice (see https://github.com/hackthefuture/station-raspberry-pi[**station-raspberry-pi**])
+or if lucky the station captain may have a spare laptop with
+Forge set up and running.
+
 If you've gotten this far, you've completed the bulk of the
 "hurry up and wait" procedure. Congratulations! From here, the
 ensuing steps may involve some troubleshooting but you'll no
 longer need wait on compiling or decompiling an entire Minecraft
 project.
+
+== Start Modding
 
 At this point you can begin hacking, in the sense of modifying
 Minecraft code and testing the resultant changes.
